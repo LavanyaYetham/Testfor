@@ -1,2 +1,5 @@
 Server_IP, Server_Status, Ram_Usage, Process_List
-192.168.2.111, Reachable, 442, /usr/bin/dockerd /usr/bin/containerd /usr/bin/python /usr/sbin/NetworkManager /usr/lib/polkit-1/polkitd
+192.168.2.111,Rechable,442,/usr/bin/dockerd
+/usr/bin/containerd
+/usr/bin/python
+/usr/sbin/NetworkManager
