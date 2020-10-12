@@ -6,6 +6,10 @@ do
     n=`echo $line |awk -F"," '{print $1}'`
     echo $n
     m=`echo $line |awk -F"," '{print $2}'`
+    if [ -z "$m" ]
+    then
+        m=3
+    fi
     echo $m
     ping -c 1 $n >/dev/null
     pingresult=`echo $?`
