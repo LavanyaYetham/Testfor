@@ -1,0 +1,6 @@
+server_IP,server_status,Ram_Usage,Process_List
+192.168.2.111,Rechable,403,/usr/bin/dockerd
+/usr/bin/containerd
+/usr/bin/python
+/usr/sbin/NetworkManager
+/usr/lib/polkit-1/polkitd
