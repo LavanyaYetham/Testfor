@@ -26,5 +26,5 @@ do
     ProcList=`ps aux --sort -rss | head -n $m | grep -v "USER" | awk '{print $11}'`
    # ProcList=`ps aux --sort -rss | head -n $m | grep -v "USER" | awk '{print $11}'`
     echo $ProcList
-    echo "$n,$serverstatus,$Memory_Usage" >>ram_usage.csv
+    echo "$n,$serverstatus,"$Memory_Usage"" >>ram_usage.csv
 done
