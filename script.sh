@@ -1,6 +1,6 @@
 #!/usr/bin/bash
 
-echo "Server_IP, Server_Status, Ram_Usage, Process_List" > ram_usage.csv
+echo "Server_IP, Server_Status, Ram_Usage"> ram_usage.csv  #  Process_List" > ram_usage.csv
 for line in `cat inputs.csv`
 do
     n=`echo $line |awk -F"," '{print $1}'`
